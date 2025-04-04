@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ProjDB-IMC" id="B9F5F4F7-3D24-E042-D68B-F98FE0DDB672" version="3.5">
+<createdBy>dvid.hvsr</createdBy>
+<createdTime>2025-04-03 22:24:44 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B9F5F4F7-3D24-E042-D68B-F98FE0DDB672</designId>
+</OSDM_Design>
