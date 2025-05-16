@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="F3682046-6C10-F39F-644F-A0239BD204FE">
+<createdBy>dvid.hvsr</createdBy>
+<createdTime>2025-05-15 23:13:59 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

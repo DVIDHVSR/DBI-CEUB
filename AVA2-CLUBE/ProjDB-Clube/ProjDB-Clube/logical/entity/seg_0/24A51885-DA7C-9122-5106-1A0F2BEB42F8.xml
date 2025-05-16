@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="24A51885-DA7C-9122-5106-1A0F2BEB42F8" name="Telefones">
+<createdBy>dvid.hvsr</createdBy>
+<createdTime>2025-05-15 23:57:11 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="C38F27DD-A013-B2F8-D049-DAF5E4623C73" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Telefones</shortName>
+<synonym>Telefones</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfTitular" id="313FEB58-52D9-0F7B-DB91-8720A07F1051">
+<createdBy>dvid.hvsr</createdBy>
+<createdTime>2025-05-16 00:40:36 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="C38F27DD-A013-B2F8-D049-DAF5E4623C73" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular2" id="549CAC1D-A2E6-1FE4-D2CA-F38A51D9BB5C">
+<createdBy>dvid.hvsr</createdBy>
+<createdTime>2025-05-16 00:34:03 UTC</createdTime>
+<generatorID>5CFB7496-4631-62A1-0B6B-8C252127BAA0</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="C38F27DD-A013-B2F8-D049-DAF5E4623C73" value="true"/>
+</engineerTo>
+<referedAttribute>0BCCC139-F9D1-2986-8179-7D2202C4A697</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefonePessoalTitular" id="44241054-3974-4D92-B255-589FDF507C48">
+<createdBy>dvid.hvsr</createdBy>
+<createdTime>2025-05-15 23:57:38 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="C38F27DD-A013-B2F8-D049-DAF5E4623C73" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefoneResidencialTitular" id="C001BD22-8B70-0606-22FA-1C1B8C24E90B">
+<createdBy>dvid.hvsr</createdBy>
+<createdTime>2025-05-15 23:58:17 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="C38F27DD-A013-B2F8-D049-DAF5E4623C73" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefonePessoalDepentende" id="B8BC8C36-9FBA-3F13-BF88-2AAD8E35ACB7">
+<createdBy>dvid.hvsr</createdBy>
+<createdTime>2025-05-16 00:38:51 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="C38F27DD-A013-B2F8-D049-DAF5E4623C73" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefoneResidencialDependente" id="A4E0AA34-CBD7-2EF4-542F-E4814D311DA4">
+<createdBy>dvid.hvsr</createdBy>
+<createdTime>2025-05-16 00:38:24 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="C38F27DD-A013-B2F8-D049-DAF5E4623C73" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="619272B9-D5EB-F9AB-836A-48A019DFB388" name="TelefoneTitular PK">
+<createdBy>dvid.hvsr</createdBy>
+<createdTime>2025-05-16 00:32:29 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="C38F27DD-A013-B2F8-D049-DAF5E4623C73" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>313FEB58-52D9-0F7B-DB91-8720A07F1051</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

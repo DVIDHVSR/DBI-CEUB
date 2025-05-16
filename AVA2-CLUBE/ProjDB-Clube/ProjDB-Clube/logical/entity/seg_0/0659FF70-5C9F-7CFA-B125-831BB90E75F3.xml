@@ -1,0 +1,238 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0659FF70-5C9F-7CFA-B125-831BB90E75F3" name="EnderecoTitular">
+<createdBy>dvid.hvsr</createdBy>
+<createdTime>2025-05-15 23:33:30 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="C38F27DD-A013-B2F8-D049-DAF5E4623C73" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>EnderecoTitular</shortName>
+<synonym>EnderecoTitular</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfTitular" id="23EB1211-BE19-EFED-5E66-2C8C6E7771CD">
+<createdBy>dvid.hvsr</createdBy>
+<createdTime>2025-05-16 00:35:02 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="C38F27DD-A013-B2F8-D049-DAF5E4623C73" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cidade" id="704DD322-F19E-156A-336A-98D601958B25">
+<createdBy>dvid.hvsr</createdBy>
+<createdTime>2025-05-15 23:34:15 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="C38F27DD-A013-B2F8-D049-DAF5E4623C73" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cep" id="A63B3632-D5AD-6430-F76C-08C7EBE7D39C">
+<createdBy>dvid.hvsr</createdBy>
+<createdTime>2025-05-15 23:37:35 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="C38F27DD-A013-B2F8-D049-DAF5E4623C73" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="uf" id="8C432413-EFD7-3231-01B8-72F705CB9D5D">
+<createdBy>dvid.hvsr</createdBy>
+<createdTime>2025-05-15 23:36:08 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="C38F27DD-A013-B2F8-D049-DAF5E4623C73" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lote" id="259219C0-B02E-AED2-E265-1F6DD43124AE">
+<createdBy>dvid.hvsr</createdBy>
+<createdTime>2025-05-15 23:36:28 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="C38F27DD-A013-B2F8-D049-DAF5E4623C73" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="aprt" id="19A49E8D-3BF1-FA15-CDD7-07095B7EEC16">
+<createdBy>dvid.hvsr</createdBy>
+<createdTime>2025-05-15 23:38:07 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="C38F27DD-A013-B2F8-D049-DAF5E4623C73" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="9E5D9A94-291B-75C6-2447-AB0C4A7FA563">
+<createdBy>dvid.hvsr</createdBy>
+<createdTime>2025-05-15 23:38:20 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="C38F27DD-A013-B2F8-D049-DAF5E4623C73" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular3" id="510901BE-DCC4-6A9D-03D0-310B0001F038">
+<createdBy>dvid.hvsr</createdBy>
+<createdTime>2025-05-16 00:34:34 UTC</createdTime>
+<generatorID>FA40D134-A75E-E213-1198-AD8D0DD8FF0C</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="C38F27DD-A013-B2F8-D049-DAF5E4623C73" value="true"/>
+</engineerTo>
+<referedAttribute>0BCCC139-F9D1-2986-8179-7D2202C4A697</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cidadeDependente" id="00E63C76-36D3-DE85-6125-F56496740807">
+<createdBy>dvid.hvsr</createdBy>
+<createdTime>2025-05-16 00:41:43 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="C38F27DD-A013-B2F8-D049-DAF5E4623C73" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cepDependente" id="F7079AF7-A6FF-1E05-29E2-F022704F3A4A">
+<createdBy>dvid.hvsr</createdBy>
+<createdTime>2025-05-16 00:42:18 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="C38F27DD-A013-B2F8-D049-DAF5E4623C73" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ufDependente" id="CCFD7A6D-AA60-70A8-FDAA-1FB6C6DE883F">
+<createdBy>dvid.hvsr</createdBy>
+<createdTime>2025-05-16 00:42:35 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="C38F27DD-A013-B2F8-D049-DAF5E4623C73" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="loteDependente" id="88FD4F69-DDBA-7AA9-7F6D-925AE36C2E1F">
+<createdBy>dvid.hvsr</createdBy>
+<createdTime>2025-05-16 00:43:04 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="C38F27DD-A013-B2F8-D049-DAF5E4623C73" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="aprtDependente" id="F703E37C-0668-6F9F-7261-EBA45E6D6AA6">
+<createdBy>dvid.hvsr</createdBy>
+<createdTime>2025-05-16 00:43:28 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="C38F27DD-A013-B2F8-D049-DAF5E4623C73" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estadoDependente" id="C394A524-5C79-EC7E-46E0-D4922ADE61AC">
+<createdBy>dvid.hvsr</createdBy>
+<createdTime>2025-05-16 00:43:43 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="C38F27DD-A013-B2F8-D049-DAF5E4623C73" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular1" id="36A5196C-03A9-BD16-2E25-366164356BFA">
+<createdBy>dvid.hvsr</createdBy>
+<createdTime>2025-05-16 00:46:37 UTC</createdTime>
+<generatorID>6CBFB937-C76A-9EB5-26C2-2039506FC78F</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="C38F27DD-A013-B2F8-D049-DAF5E4623C73" value="true"/>
+</engineerTo>
+<referedAttribute>C648C61D-CD06-2011-DC66-E0F8167E215A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5DD281D9-2B09-6C78-F762-9B47B5CB5F1B" name="EnderecoTitular PK">
+<createdBy>dvid.hvsr</createdBy>
+<createdTime>2025-05-16 00:34:34 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="C38F27DD-A013-B2F8-D049-DAF5E4623C73" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>510901BE-DCC4-6A9D-03D0-310B0001F038</attributeRef>
+<attributeRef>23EB1211-BE19-EFED-5E66-2C8C6E7771CD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

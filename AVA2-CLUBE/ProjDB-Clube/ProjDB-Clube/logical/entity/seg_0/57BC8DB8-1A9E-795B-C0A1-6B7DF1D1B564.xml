@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="57BC8DB8-1A9E-795B-C0A1-6B7DF1D1B564" name="Titular">
+<createdBy>dvid.hvsr</createdBy>
+<createdTime>2025-05-15 23:25:19 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="C38F27DD-A013-B2F8-D049-DAF5E4623C73" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Titular</shortName>
+<synonym>Titular</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfTitular" id="0BCCC139-F9D1-2986-8179-7D2202C4A697">
+<createdBy>dvid.hvsr</createdBy>
+<createdTime>2025-05-16 00:30:51 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="C38F27DD-A013-B2F8-D049-DAF5E4623C73" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeTitular" id="4A255784-A330-5523-2AC8-63007F640099">
+<createdBy>dvid.hvsr</createdBy>
+<createdTime>2025-05-15 23:27:12 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="C38F27DD-A013-B2F8-D049-DAF5E4623C73" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataDeNascimento" id="664DBCD4-84A6-84B1-9C94-FFF077D6CDB8">
+<createdBy>dvid.hvsr</createdBy>
+<createdTime>2025-05-15 23:30:00 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="C38F27DD-A013-B2F8-D049-DAF5E4623C73" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E31C589E-9238-AE65-F386-0690C95B162D" name="Titular PK">
+<createdBy>dvid.hvsr</createdBy>
+<createdTime>2025-05-16 00:31:11 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="C38F27DD-A013-B2F8-D049-DAF5E4623C73" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0BCCC139-F9D1-2986-8179-7D2202C4A697</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
